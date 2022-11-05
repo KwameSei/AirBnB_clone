@@ -11,7 +11,7 @@ body {
     margin: auto;   /*Horizontally center container and its contents*/
     margin-top: 30px;
     margin-bottom: 30px;
-    color: white;
+    /*color: white;*/
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
@@ -30,11 +30,15 @@ button {
     margin-right: 30px;
     margin-top: 15px;
     /*Vertically centering elements*/
-    display: flex;
-    justify-content: center;
-    align-items: center; 
 }
 
 button:hover {
     filter: opacity(90%);
+}
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+.locations, .amenities {
+    width: 25%;
+    margin: 0 30px;
 }

@@ -1,0 +1,27 @@
+footer {
+    background-color: white; 
+    height: 60px; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0;
+    border-top: 1px solid #CCCCCC;
+}
+.text {
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+.filter-head {
+    font-weight: 600;
+}
+.filter-detail {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -18px;
+}
