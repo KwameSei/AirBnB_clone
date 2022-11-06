@@ -36,6 +36,7 @@ button:hover {
     filter: opacity(90%);
 }
 .locations {
+    width: 100%;
     border-right: 1px solid #DDDDDD;
 }
 .locations, .amenities {
