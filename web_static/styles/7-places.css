@@ -2,13 +2,13 @@
     font-size: 30px;
 }
 
-.places-ul {
+.article-tag {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
-.places-ul .places-li {
+.article-tag .places- ul {
     width: 390px;
     margin: 20px;
     padding: 20px;
